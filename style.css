@@ -1,0 +1,75 @@
+body{
+    line-height: 25px;
+    background-color: bisque;
+    padding: 0;
+    margin: 0;
+
+}
+.wrapper{
+    max-width: 100vw;
+    height: 100%;
+    background-color: white;
+    padding-bottom: 10px;
+  
+
+}
+img{
+    padding-left: 0;
+    width: 100%;
+}
+
+.main-container{
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.preparation-container{
+    & h3{
+        font-family: 'Outfit';
+        color: darkmagenta;
+    }
+    margin-left: 50px;
+}
+h2{
+    color:saddlebrown;
+}
+h1,h2{
+    font-family: 'Young Serif', serif;
+}
+h1{
+    color: hsl(24, 5%, 18%);
+    line-height: 40px;
+}
+p,li{
+    font-family: 'Outfit', sans-serif;
+    color:  hsl(30, 10%, 34%);
+}
+span{
+    font-weight: 900;
+}
+.nutrition-container{
+  & ul li{
+    & span{
+        width: 50%;
+        text-align: center;
+    }
+    display: flex;
+    border-bottom: 0.001rem solid lightslategray;
+  }
+  & ul li span:nth-child(2){
+    color:saddlebrown
+  }
+}
+
+@media(width>712px){
+   .wrapper{
+        width: 712px;
+        margin: 0 auto;
+        padding: 15px;
+        border-radius: 1rem; /* 4px */;
+        & img{
+            border-radius: inherit;
+        }
+    }
+
+}
