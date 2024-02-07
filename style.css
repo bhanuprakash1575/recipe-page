@@ -70,6 +70,7 @@ span{
         & img{
             border-radius: inherit;
         }
+        margin: 50px auto;
     }
 
 }
