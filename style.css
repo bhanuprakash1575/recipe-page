@@ -41,7 +41,7 @@ img{
 }
 
 .preparation-container{
-    & h3{
+    & h2{
         font-family: 'Outfit';
         color: darkmagenta;
     }
